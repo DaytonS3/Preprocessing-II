@@ -209,11 +209,15 @@ nav a {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+.home .welcome {
+  padding: 20px 0;
+  border-bottom: 1px dashed black;
+}
 .home header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px dashed lightgrey;
+  border-bottom: 1px dashed grey;
 }
 .home .inverse-content {
   padding-bottom: 30px;
