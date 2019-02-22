@@ -249,15 +249,20 @@ nav a {
     flex-direction: column;
   }
 }
-.home .inverse-content {
+.home #inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-.home .inverse-content .text-content {
+@media ( max-width: 500px ) {
+  .home #inverse-content {
+    flex-direction: column-reverse;
+  }
+}
+.home #inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
-.home .inverse-content .img-content {
+.home #inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
 }
@@ -298,7 +303,7 @@ nav a {
 .home .form button {
   background: white;
 }
-.home .form .trip {
+.home .form select {
   background: white;
 }
 .home .content-pick {
